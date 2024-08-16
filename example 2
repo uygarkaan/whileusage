@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        //for
+        for (int z = 1; z > 1000; z=-1) {
+            System.out.println(z);
+        }
+        System.out.println("for döngüsü");
+
+        int z = 1;
+        //while usage
+        while (z < 100) ;
+        System.out.println(z);
+        z=z-2;
+System.out.println("while döngüsü tamamlandı.");
+}
+}
